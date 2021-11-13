@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=DM+Sans:wght@700&family=Montagu+Slab&family=Poppins:wght@200&display=swap" rel="stylesheet">    
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="css/style.css">
     <title>Akan-names</title>
+   
 </head>
 <body>
-    
+    <header>
+        <h2>Akan Names Web Application</h2>
+        <p>Akan names come from a traditional naming system for people from Ghana, whereby a child's name is determined by factors surrounding his or her birth. For example, the day of their birth or the manner in which they were born may determine which name they get irrespective of their gender.
+           This web application therefore, is developed to take a user's birthday details and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</p>
+    </header>
+    <body>
+        <p>Enter your birth day details to see your Akan name;</p>
+
+        <form>
+            Year of Birth: <input type="text" id="year">
+            Month of Birth: <input type="text" id="month">
+            Date of Birth: <input type="text" id="date ">
+
+            Gender: 
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <button type="button" onclick="sub()">Submit</button>
+        </form>
+        <div id="feedback"></div>
+        
+    </body>
+
+<script src="index.js"></script>
 </body>
 </html>
