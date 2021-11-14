@@ -25,12 +25,29 @@ function myFunction() {
     document.getElementById("feedback").innerHTML = submit;
 }*/
 
-var birthYear = document.getElementById("year").innerHTML;
+ /*function myFunction() {
+    var birthYear = document.getElementById("year").innerHTML;
+    document.getElementById("year").innerHTML = birthYear;
 
 
-var birthMonth = document.getElementById("month").innerHTML;
+ }*/
+
+
+/*var birthMonth = document.getElementById("month").innerHTML;
 var birthDate = document.getElementById("date").innerHTML;
 var myGender = document.getElementById("gender").innerHTML;
 var mySubmit = document.getElementById("sub").innerHTML;
 var myFeedback = document.getElementById("feedback").innerHTML;
+var myFeedback = document.getElementById("fem").innerHTML;
+var myFeedback = document.getElementById("mal").innerHTML;*/
 
+
+/*function myFunction() {
+    var array = ("year", "month", "date", "gender", "submit", "feedback")
+    
+    
+    = document.getElementById("gender").innerHTML;
+    document.getElementById("feedback").innerHTML = array;
+  }*/
+
+  

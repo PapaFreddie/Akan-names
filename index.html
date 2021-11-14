@@ -22,7 +22,7 @@
 <body>
     <header>
         <h2>Akan Names Web Application</h2>
-        <p>Akan names come from a traditional naming system for people from Ghana, whereby a child's name is determined by factors surrounding his or her birth. For example, the day of their birth or the manner in which they were born may determine which name they get irrespective of their gender.
+        <p>Akan names come from a traditional naming system for people from Ghana, whereby a child's name is given according to the day they were born irrespective of their gender.
            This web application therefore, is developed to take a user's birthday details and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</p>
     </header>
     <body>
@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col-md-6">
                 <h4>Female</h4>
-                <ul>
+                <ul id="fem">
                     <li><strong>Sunday:</strong> Akosua</li>
                     <li><strong>Monday:</strong> Adwoa</li>
                     <li><strong>Tueday:</strong> Abenaa</li>
@@ -43,7 +43,7 @@
             </div>
             <div class="col-md-6">
                 <h4>Male</h4>
-                <ul>
+                <ul id="mal">
                     <li><strong>Sunday:</strong> Kwasi</li>
                     <li><strong>Monday:</strong> Kwadwo</li>
                     <li><strong>Tueday:</strong> Kwabena</li>
@@ -58,19 +58,21 @@
         <p>Enter your details to see your Akan name;</p>
 
         <form>
-            Year: <input type="text" id="year">
-            Month: <input type="text" id="month">
-            Date: <input type="text" id="date ">
+            Year: <input type="number" id="year">
+            Month: <input type="number" id="month">
+            Date: <input type="number" id="date ">
 
             Gender: 
-            <select id="gender">
+            <input type="radio" name="gender" value="male" checked> Male</input>
+            <input type="radio" name="gender" value="female"> Female</input>
+            <!--<select id="gender">
                 <option value="male">Male</option>
                 <option value="female">Female</option>
-            </select>
+            </select>-->
 
-            <button type="button" onclick="myFunction"id="sub()">Submit</button>
+            <button type="button" onclick="myFunction">Submit</button>
         </form>
-        <div id="feedback">Your Akan name is</div>
+        <div id="feedback"></div>
         
     </body>
 
