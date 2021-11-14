@@ -1,11 +1,29 @@
 
+*{
+    justify-content: center;
+    text-align: center;
+}
 ul{
     list-style: none;
 }
-
-h2{
-   text-align: center;
+h2, h3{
+    text-decoration: rgb(255, 205, 208);
+    justify-items: center;
 }
-h3{
-    text-align: center;
- }
+#year{
+    border-radius: 5px;
+    width: 70px;
+}
+#month{
+    border-radius: 5px;
+    width: 60px;
+}
+#day{
+    border-radius: 5px;
+    width: 50px;
+}
+button{
+    border-radius: 5px;
+    background-color: rgb(99, 180, 99);
+    width: 70px;
+}

@@ -1,22 +1,26 @@
 # Akan Naming Web Application
-#### {Brief description of application}, {Date of current version}
+#### This web application is developed to take a user's birthday details and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 #### By **Fred Papa**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+This web application is designed to help achieve the easy identification of Akan names by respective users when they key in their birthday details. By so doing, they are able to find out the day they were born, date and the respective meaning of the day in Akan language.  Akan naming Akan people use the Kwa language group’s system of timekeeping, which is based on a six-day week (‘nnanson‘), with the seventh day inclusive. In Ashanti homes, Sunday-born males and females are named Kwasi or Kwesi and Akosua respectively (meaning ‘associated with the universe’); Monday-born are Kwadwo or Kojo, Adjoa or Adwoa (meaning ‘associated with peace’); Tuesday-born are Kwabena or Kobi, Abena (meaning ‘associated with the ocean’); Wednesday-born Kwaku or Kweku, Akua (meaning ‘associated with spider/Ananse’); Thursday-born Yaw, Yaa ( meaning ‘associated with the earth’); Friday-born Kofi, Afia or Afua (meaning ‘associated with fertility’); and Saturday-born Kwame, Ama (meaning ‘associated with God’).
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* Open terminal {Cntrl+Alt+T}
+* git clone 
+* cd Akan-names
+* code . or atom . depending on your editor
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+The application has not achieved most of backend features like interaction with large volumes of data that can be used to generate many things.
+## Future Plans
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+HTML
+CSS
+JavaScript
+Bootstrap
+## 
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+Email: fredpapah20@gmail.com
+Tel: +254111728374 or +254770113958
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+*(MIT License)*
+Copyright (c) 2021 **Fred Papa**
   
