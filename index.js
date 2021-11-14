@@ -1,53 +1,35 @@
-/*function sub() {
-    var one = document.querySelector("#year").value;
-    var two = document.querySelector("#month").value;
-    var three = document.querySelector("#date").value;
-    var four = document.querySelector("#gender").value;
-    var submit;
+function incorrect(day, month) {
+    if(day < 1 || day > 31 || month == 2 && day > 29) {
+        alert("Invalid date");
+        day.focus();
+        return false;
 
+    }else if(month < 1 || month > 12 ) {
+        alert("Invalid month");
+        month.focus();
+        return false;
+    }else{
+        return true;
+    }
+}
+//user input function
+function AkanCulture() {
+    var year = parseInt(document.getElementById("year").value);
+    var month = parseInt(document.getElementById("month").value);
+    var day = parseInt(document.getElementById("day").value);
+    var gender = document.querySelector('input[name="gender"]:checked').value;
 
-    if(four == "male") {
-        submit = one + two + three;
+    if(incorrect(day, month)) {
+        var dayIndex = new Date(year, month-1, day).getDay();
+        alert("Your Akan Name is: " + getAkanCulture(dayIndex, gender));
 
     }
-    else if(four == female) {
-        submit = one + two + three;
-    }
 
 
+}
 
-    document.querySelector("#feedback").innerHTML = Your Akan name is;
-
-};*/
-
-/*var submit = document.getElementById("sub").innerHTML;
-function myFunction() {
-    document.getElementById("feedback").innerHTML = submit;
-}*/
-
- /*function myFunction() {
-    var birthYear = document.getElementById("year").innerHTML;
-    document.getElementById("year").innerHTML = birthYear;
-
-
- }*/
-
-
-/*var birthMonth = document.getElementById("month").innerHTML;
-var birthDate = document.getElementById("date").innerHTML;
-var myGender = document.getElementById("gender").innerHTML;
-var mySubmit = document.getElementById("sub").innerHTML;
-var myFeedback = document.getElementById("feedback").innerHTML;
-var myFeedback = document.getElementById("fem").innerHTML;
-var myFeedback = document.getElementById("mal").innerHTML;*/
-
-
-/*function myFunction() {
-    var array = ("year", "month", "date", "gender", "submit", "feedback")
-    
-    
-    = document.getElementById("gender").innerHTML;
-    document.getElementById("feedback").innerHTML = array;
-  }*/
-
-  
+function getAkanCulture(dayIndex, gender) {
+    var boyNames = ["Akwasi", "Kwadwo", "Kwabena", "Kwaku", "Yau", "Kofi", "Kwame"];
+    var girlNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amaa"];
+    return gender === "male" ? boyNames[dayIndex] : girlNames[dayIndex];
+}

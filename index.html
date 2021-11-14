@@ -58,21 +58,16 @@
         <p>Enter your details to see your Akan name;</p>
 
         <form>
-            Year: <input type="number" id="year">
-            Month: <input type="number" id="month">
-            Date: <input type="number" id="date ">
+            Year: <input type="number" min="1870" max="2020" required id="year"> 
+            Month: <input type="number" min="1" max="12" required id="month">
+            Day: <input type="number" min="1" max="31" required id="day">
 
             Gender: 
-            <input type="radio" name="gender" value="male" checked> Male</input>
-            <input type="radio" name="gender" value="female"> Female</input>
-            <!--<select id="gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>-->
+            <input type="radio" name="gender" value="male" required> Male</input>
+            <input type="radio" name="gender" value="female" required> Female</input>
 
-            <button type="button" onclick="myFunction">Submit</button>
+            <button type="submit" onclick="AkanCulture()">Submit</button>
         </form>
-        <div id="feedback"></div>
         
     </body>
 
