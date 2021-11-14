@@ -20,4 +20,7 @@ function sub() {
 
 };
 
-function 
+/*var submit = document.getElementById("sub").innerHTML;
+function myFunction() {
+    document.getElementById("feedback").innerHTML = submit;
+}*/
