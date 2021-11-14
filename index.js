@@ -1,4 +1,4 @@
-function sub() {
+/*function sub() {
     var one = document.querySelector("#year").value;
     var two = document.querySelector("#month").value;
     var three = document.querySelector("#date").value;
@@ -16,11 +16,21 @@ function sub() {
 
 
 
-    document.querySelector("#feedback").innerHTML = submit;
+    document.querySelector("#feedback").innerHTML = Your Akan name is;
 
-};
+};*/
 
 /*var submit = document.getElementById("sub").innerHTML;
 function myFunction() {
     document.getElementById("feedback").innerHTML = submit;
 }*/
+
+var birthYear = document.getElementById("year").innerHTML;
+
+
+var birthMonth = document.getElementById("month").innerHTML;
+var birthDate = document.getElementById("date").innerHTML;
+var myGender = document.getElementById("gender").innerHTML;
+var mySubmit = document.getElementById("sub").innerHTML;
+var myFeedback = document.getElementById("feedback").innerHTML;
+
