@@ -1,8 +1,8 @@
 function sub() {
-    var one = parseInt(document.querySelector("#year").value );
-    var two = parseInt(document.querySelector("#month").value );
-    var three = parseInt(document.querySelector("#date").value );
-    var four = document.querySelector("gender").value;
+    var one = document.querySelector("#year").value;
+    var two = document.querySelector("#month").value;
+    var three = document.querySelector("#date").value;
+    var four = document.querySelector("#gender").value;
     var submit;
 
 
@@ -18,8 +18,6 @@ function sub() {
 
     document.querySelector("#feedback").innerHTML = submit;
 
+};
 
-
-
-
-}
+function 
