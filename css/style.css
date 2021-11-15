@@ -1,9 +1,12 @@
-
 *{
-    justify-content: center;
     text-align: center;
+    background-color: wheat;
+    margin: 20px;
+}
+#year{
     border-radius: 5px;
-    width: 70px;
+    width: 60px;
+
 }
 #month{
     border-radius: 5px;
