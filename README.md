@@ -11,11 +11,16 @@ This web application is designed to help achieve the easy identification of Akan
 ## Known Bugs
 The application has not achieved most of backend features like interaction with large volumes of data that can be used to generate many things.
 ## Future Plans
+To put more efforts to backend for the application to have ability to be used when applying large volumes of data.
 ## Technologies Used
 HTML
 CSS
 JavaScript
 Bootstrap
+## Behaviour Driven Development
+Date: Day of the month e.g 20th day
+Month: Month of the year e.g 2nd month
+Year: Year of the century e.g 98
 ## Support and contact details
 Email: fredpapah20@gmail.com
 Tel: +254111728374 or +254770113958
