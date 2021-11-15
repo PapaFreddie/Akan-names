@@ -2,16 +2,6 @@
 *{
     justify-content: center;
     text-align: center;
-    background-image: url();
-}
-ul{
-    list-style: none;
-}
-h2, h3{
-    justify-items: center;
-    
-}
-#year{
     border-radius: 5px;
     width: 70px;
 }
