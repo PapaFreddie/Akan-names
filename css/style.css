@@ -1,7 +1,7 @@
 .wrapper{
-    background-color: slategray;
+    background-image: url(images/bg\ im.jpeg);
     margin: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -32,4 +32,7 @@ button{
  ul{
      list-style-type: none;
  }
-
+.col-md-6 ul{
+    text-decoration: snow;
+    font-weight: 600;
+}
