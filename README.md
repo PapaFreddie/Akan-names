@@ -13,18 +13,18 @@ The application only specifies the two genders, that is, male and female. It doe
 ## Future Plans
 The application should include 'others' in the gender section
 ## Technologies Used
-HTML
-CSS
-JavaScript
-Bootstrap
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
 ## Behaviour Driven Development
-Date: Day of the month e.g 20th day |
-Month: Month of the year e.g 2nd month |
-Year: Year of the century e.g 98 |
+1. Date: Day of the month e.g 20th day |
+2. Month: Month of the year e.g 2nd month |
+3. Year: Year of the century e.g 98 |
 ## Support and contact details
 Email: fredpapah20@gmail.com
 Tel: +254111728374 or +254770113958
 ### License
-*(MIT License)*
+**(MIT License)**
 Copyright (c) 2021 **Fred Papa**
   
