@@ -5,7 +5,7 @@
 This web application is designed to help achieve the easy identification of Akan names by respective users when they key in their birthday details. By so doing, they are able to find out the day they were born, date and the respective meaning of the day in Akan language.  Akan naming Akan people use the Kwa language group’s system of timekeeping, which is based on a six-day week (‘nnanson‘), with the seventh day inclusive. In Ashanti homes, Sunday-born males and females are named Kwasi or Kwesi and Akosua respectively (meaning ‘associated with the universe’); Monday-born are Kwadwo or Kojo, Adjoa or Adwoa (meaning ‘associated with peace’); Tuesday-born are Kwabena or Kobi, Abena (meaning ‘associated with the ocean’); Wednesday-born Kwaku or Kweku, Akua (meaning ‘associated with spider/Ananse’); Thursday-born Yaw, Yaa ( meaning ‘associated with the earth’); Friday-born Kofi, Afia or Afua (meaning ‘associated with fertility’); and Saturday-born Kwame, Ama (meaning ‘associated with God’).
 ## Setup/Installation Requirements
 * Open terminal {Cntrl+Alt+T}
-* git clone git@github.com:PapaFreddie/Akan-names.git
+* git clone https://papafreddie.github.io/Akan-names/
 * cd Akan-names
 * code . or atom . depending on your editor
 ## Known Bugs
