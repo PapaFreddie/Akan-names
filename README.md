@@ -21,8 +21,6 @@ The application should include 'others' in the gender section
 1. Date: Day of the month e.g 20th day |
 2. Month: Month of the year e.g 2nd month |
 3. Year: Year of the century e.g 98 |
-## Web Application Screenshorts.
-
 ## Support and contact details
 Email: fredpapah20@gmail.com
 Tel: +254111728374 or +254770113958
