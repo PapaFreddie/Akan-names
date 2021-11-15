@@ -2,13 +2,14 @@
 *{
     justify-content: center;
     text-align: center;
+    background-image: url();
 }
 ul{
     list-style: none;
 }
 h2, h3{
-    text-decoration: rgb(255, 205, 208);
     justify-items: center;
+    
 }
 #year{
     border-radius: 5px;
