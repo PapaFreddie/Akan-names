@@ -9,9 +9,9 @@ This web application is designed to help achieve the easy identification of Akan
 * cd Akan-names
 * code . or atom . depending on your editor
 ## Known Bugs
-The application has not achieved most of backend features like interaction with large volumes of data that can be used to generate many things.
+The application only specifies the two genders, that is, male and female. It does not have option for 'others', those who do not have specify themselves as male or female.
 ## Future Plans
-To put more efforts to backend for the application to have ability to be used when applying large volumes of data.
+The application should include 'others' in the gender section
 ## Technologies Used
 HTML
 CSS
