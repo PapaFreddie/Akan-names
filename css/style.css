@@ -1,7 +1,10 @@
-*{
+.wrapper{
+    background-color: slategray;
+    margin: 50px;
+    padding-bottom: 50px;
     text-align: center;
-      
 }
+
 #year{
     border-radius: 5px;
     width: 60px;
@@ -29,3 +32,4 @@ button{
  ul{
      list-style-type: none;
  }
+

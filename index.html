@@ -20,60 +20,64 @@
    
 </head>
 <body>
-    <header>
-        <h2>Akan Names Web Application.</h2>
-        <p>Akan names come from a traditional naming system for people from Ghana, whereby a child's name is given according to the day they were born irrespective of their gender.</p>
-        <p>This application takes a user's birthday details and calculates the day of the week they were born and then depending on their gender, it outputs their Akan Name.</p>
-    </header>
-    <body>
-        <h3>Akan Names and their Meanings.</h3>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h4>Males</h4>
-                    <ul>
-                        <li><strong>Sunday:</strong>KWasi</li>
-                        <li><strong>Monday:</strong>KWadwo</li>
-                        <li><strong>Tuesday:</strong>KWabena</li>
-                        <li><strong>Wednesday:</strong>KWaku</li>
-                        <li><strong>Thirsday:</strong>Yaw</li>
-                        <li><strong>Friday:</strong>Kofi</li>
-                        <li><strong>Saturday:</strong>KWame</li>
-                    </ul>
+    <div class="wrapper">
+        <header>
+            <h2>Akan Names Web Application.</h2>
+            <p>Akan names come from a traditional naming system for people from Ghana, whereby a child's name is given according to the day they were born respective of their gender.</p>
+            <p>This application takes a user's birthday details and calculates the day of the week they were born and then depending on their gender, it outputs their Akan Name.</p>
+        </header>
+        <body>
+            <h3>Akan Names and their Meanings.</h3>
+    
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Males</h4>
+                        <ul>
+                            <li><strong>Sunday:</strong>KWasi</li>
+                            <li><strong>Monday:</strong>KWadwo</li>
+                            <li><strong>Tuesday:</strong>KWabena</li>
+                            <li><strong>Wednesday:</strong>KWaku</li>
+                            <li><strong>Thirsday:</strong>Yaw</li>
+                            <li><strong>Friday:</strong>Kofi</li>
+                            <li><strong>Saturday:</strong>KWame</li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-md-6">
+                        <h4>Females</h4>
+                        <ul>
+                            <li><strong>Sunday:</strong>Akosua</li>
+                            <li><strong>Monday:</strong>Adwoa</li>
+                            <li><strong>Tuesday:</strong>Abenaa</li>
+                            <li><strong>Wednesday:</strong>Akua</li>
+                            <li><strong>Thursday:</strong>Yaa</li>
+                            <li><strong>Friday:</strong>Afua</li>
+                            <li><strong>Saturday:</strong>Ama</li>
+                        </ul>
+                        
+                    </div>
+    
                 </div>
-
-                <div class="col-md-6">
-                    <h4>Females</h4>
-                    <ul>
-                        <li><strong>Sunday:</strong>Akosua</li>
-                        <li><strong>Monday:</strong>Adwoa</li>
-                        <li><strong>Tuesday:</strong>Abenaa</li>
-                        <li><strong>Wednesday:</strong>Akua</li>
-                        <li><strong>Thursday:</strong>Yaa</li>
-                        <li><strong>Friday:</strong>Afua</li>
-                        <li><strong>Saturday:</strong>Ama</li>
-                    </ul>
-                    
-                </div>
-
             </div>
-        </div>
-        <p>Enter your details to see your Akan name;</p>
+            <p>Enter your details to see your Akan name;</p>
+    
+            <form>
+                Year: <input type="number" min="1870" max="2020" required id="year"> 
+                Month: <input type="number" min="1" max="12" required id="month">
+                Day: <input type="number" min="1" max="31" required id="day">
+    
+                Gender: 
+                <input type="radio" name="gender" value="male" required> Male</input>
+                <input type="radio" name="gender" value="female" required> Female</input>
+    
+                <button type="submit" onclick="AkanCulture()">Submit</button>
+            </form>
+            
+        </body>
+    <script src="index.js"></script>
 
-        <form>
-            Year: <input type="number" min="1870" max="2020" required id="year"> 
-            Month: <input type="number" min="1" max="12" required id="month">
-            Day: <input type="number" min="1" max="31" required id="day">
-
-            Gender: 
-            <input type="radio" name="gender" value="male" required> Male</input>
-            <input type="radio" name="gender" value="female" required> Female</input>
-
-            <button type="submit" onclick="AkanCulture()">Submit</button>
-        </form>
-        
-    </body>
-<script src="index.js"></script>
+    </div>
+    
 </body>
 </html>
